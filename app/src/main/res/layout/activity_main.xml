@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:visibility="visible">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnList"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/list_students"
+        android:visibility="visible"
+        app:icon="@drawable/ic_list" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdd"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/add_student"
+        android:visibility="visible"
+        app:icon="@drawable/ic_add" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStats"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics"
+        android:visibility="visible"
+        app:icon="@drawable/ic_stats" />
+</LinearLayout>

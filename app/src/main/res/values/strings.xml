@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Aptudiant</string>
+    <string name="save">Enregistrer</string>
+    <string name="required_field">Ce champ est requis</string>
+    <string name="numeric_error">Valeur numérique requise</string>
+    <string name="range_error">Doit être entre 0 et 20</string>
+
+    <string name="stats_moyenne">Moyenne : %.2f</string>
+    <string name="stats_min">Minimum : %.2f</string>
+    <string name="stats_max">Maximum : %.2f</string>
+
+    <string name="hint_numero_etudiant">Numéro étudiant</string>
+    <string name="hint_nom_complet">Nom complet</string>
+    <string name="hint_moyenne">Moyenne</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_save_description">Sauvegarder les informations de l\'étudiant</string>
+
+    <string name="list_students">Liste des étudiants</string>
+    <string name="add_student">Ajouter un étudiant</string>
+    <string name="statistics">Statistiques</string>
+
+    <string name="statistics_title">Statistiques des notes</string>
+    <string name="stats_average">Moyenne : </string>
+    <string name="stats_minimum">Minimum : </string>
+    <string name="stats_maximum">Maximum : </string>
+
+    <string name="student_number">Numéro</string>
+    <string name="student_name">Nom</string>
+    <string name="student_average">Moyenne</string>
+    <string name="student_observation">Observation</string>
+
+    <string name="switch_chart">Changer de graphique</string>
+</resources>

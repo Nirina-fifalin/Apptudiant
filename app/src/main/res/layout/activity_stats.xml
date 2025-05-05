@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:visibility="visible">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMoyenne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/stats_average"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/stats_minimum"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_maximum"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="24dp"
+        android:visibility="visible"
+    />
+
+    <ImageButton
+        android:id="@+id/btnSwitchChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_switch_chart"
+        android:contentDescription="@string/switch_chart"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="@color/black"
+        android:layout_marginBottom="16dp" 
+    />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:visibility="gone" 
+    />
+
+</LinearLayout>
